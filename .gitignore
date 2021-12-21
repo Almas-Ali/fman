@@ -3,3 +3,7 @@ fman/__pycache__
 
 test.py
 text.txt
+
+fman.egg-info
+dist
+build
