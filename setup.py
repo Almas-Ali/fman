@@ -16,14 +16,14 @@ classifiers = [
 
 setuptools.setup(
     name="fman",
-    version="0.0.1",
-    description="FMan - A external module for builtin works tool for Python 3 (open source).",
+    version="0.0.2",
+    description="FMan - An unility for builtin work tools for Python 3 (open source).",
     long_description_content_type="text/markdown",
     long_description=long_description,
     url="https://github.com/almas-ali/fman",
     author="Md. Almas Ali",
     author_email="almaspr3@gmail.com",
-    keyword="FMan, FileManager, Dataset, ClassExplore, DatasetClassExplore",
+    keyword="FMan, FileManager, Dataset, ClassExplore, DatasetClassExplore, FileIO",
     license="MIT",
     classifiers=classifiers,
     packages=setuptools.find_packages(),

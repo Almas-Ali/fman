@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
     <title>Fman Documentation</title>
 </head>
+
+
 <body>
-    
-    <div class="container-fluid">
-        This is Fman Documentation Page.
+    <aside>
+        <div>
+            <ul class="main-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Array">Array</a></li>
+            </ul>
+        </div>
+    </aside>
+
+
+
+    <div class="main">
+        <div>
+            <h1 align="center">Welcome To FMan documentation</h1>
+        </div>
+
+        <div id="Array">
+            <h2>Array - A multi-function datatype.</h2>
+            <p>To use array you need to import it.</p>
+            <div class="multi-code">
+                <p>1.1 - Array
+                    <a href="#copy" class="copy-btn">Copy</a>
+                </p> <hr>
+                <pre>
+from fman.dataset import Array
+
+array = Array(1, 2, 'three', "four", '5', "6", "etc.")</pre>
+            </div>
+        </div>
+
     </div>
 
+
+
+    <footer></footer>
 </body>
+
+<!-- <body>   
+
+    <main>
+        <div class="container-fluid">
+            This is Fman Documentation Page.
+        </div>
+    </main>
+
+</body> -->
+
 </html>
