@@ -22,7 +22,7 @@
 
 
 
-    <div class="main">
+    <div class="main" id="home">
         <div>
             <h1 align="center">Welcome To FMan documentation</h1>
         </div>
@@ -35,33 +35,82 @@
             <div class="multi-code">
                 <p>1.1 - Array
                     <a href="#copy" class="copy-btn">Copy</a>
-                </p> <hr>
+                </p>
+                <hr>
                 <pre>
 from fman.dataset import Array
 
 array = Array(1, 2, 'three', "four", '5', "6", "etc.")</pre>
             </div>
-
-            <p>Now you have access to all array methods. You can use this methods:</p>
-            <ul>
-                <li><a href="#">push()</a></li>
-                <li><a href="#">pop()</a></li>
-                <li><a href="#">insert()</a></li>
-                <li><a href="#">peek()</a></li>
-                <li><a href="#">remove()</a></li>
-                <li><a href="#">clear()</a></li>
-                <li><a href="#">find()</a></li>
-                <li><a href="#">count()</a></li>
-                <li><a href="#">sort()</a></li>
-                <li><a href="#">reverse()</a></li>
-                <li><a href="#">len()</a></li>
-                <li><a href="#">slice()</a></li>
-                <li><a href="#">q()</a></li>
-                <li><a href="#">typecase()</a></li>
-            </ul>
         </div>
+        <p>Now you have access to all array methods. You can use this methods:</p>
+        <ul>
+            <details>
+                <summary><b>push()</b></summary>
+                <div id="push">
+                    <h3>To add a item to array use this method.</h3>
 
+                    <div class="multi-code">
+                        <p>1.2 - push()
+                            <a href="#copy" class="copy-btn">Copy</a>
+                        </p>
+                        <hr>
+                        <pre>
+from fman.dataset import Array
+
+array = Array(1, 2, 'three', "four", '5', "6", "etc.")
+array.push("new_item")
+
+print(array)
+</pre>
+                        <hr>
+                        Output: <br>
+                        <1, 2, 'three' , 'four' , '5' , '6' , 'etc.' , 'new_item'>
+                    </div>
+                </div>
+            </details>
+
+
+            <details>
+                <summary><b>pop()</b></summary>
+                <div id="pop">
+                    <h3>To remove a item from end in array use this method.</h3>
+
+                    <div class="multi-code">
+                        <p>1.2 - pop()
+                            <a href="#copy" class="copy-btn">Copy</a>
+                        </p>
+                        <hr>
+                        <pre>
+from fman.dataset import Array
+
+array = Array(1, 2, 'three', "four", '5', "6", "etc.", "new_item")
+array.pop()
+
+print(array)
+</pre>
+                        <hr>
+                        Output: <br>
+                        <1, 2, 'three' , 'four' , '5' , '6' , 'etc.'>
+                    </div>
+                </div>
+            </details>
+
+            <li><a href="#">insert()</a></li>
+            <li><a href="#">peek()</a></li>
+            <li><a href="#">remove()</a></li>
+            <li><a href="#">clear()</a></li>
+            <li><a href="#">find()</a></li>
+            <li><a href="#">count()</a></li>
+            <li><a href="#">sort()</a></li>
+            <li><a href="#">reverse()</a></li>
+            <li><a href="#">len()</a></li>
+            <li><a href="#">slice()</a></li>
+            <li><a href="#">q()</a></li>
+            <li><a href="#">typecase()</a></li>
+        </ul>
     </div>
+
 
 
 
